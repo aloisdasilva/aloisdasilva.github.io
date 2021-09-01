@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css"></link>
+    <title>Aloha Cours</title>
+</head>
+<body>
+    <div id="Landing">
+        <div class="Landing__first-page">
+            <div class="whole-navbar-fixed">
+            <nav class="navbar dark-mode" role="navigation">
+                <div class="burger-menu">
+                    <button class="menu-btn">
+                        <span class="menu-btn__burger"></span>
+                    </button>
+                    <p class="menu-post-burger">Menu</p>
+                </div>  
+                <div class="navbar__logo">
+                    <a class="logo" href="index.html"> <p class="pi1">∏&nbsp;&nbsp;</p><p class="aloha">A L O H A</p><p class="pi2">&nbsp;&nbsp;∏ </p></a>
+                </div>
+                <div class="navbar__links-no-transition">
+                    <div class="navbar__links">
+                    <ul class="navbar__links-ul">
+                        <li class="navbar__link first no-transi">
+                            <a href="index.html"> Accueil </a>
+                        </li>
+                        <li class="navbar__link second no-transi">
+                            <a href="privateTuitions.html"> Cours Particuliers </a>
+                        </li>
+                        <li class="navbar__link third no-transi">
+                            <a href="orga.html"> Méthodologie </a>
+                        </li>
+                        <li class="navbar__link fourth no-transi">
+                            <a href="memo.html"> Mémorisation </a>
+                        </li>
+                        <!-- <li class="navbar__link fifth no-transi">
+                            <a href="bac.html"> Préparation au bac </a>
+                        </li> -->
+                        <li class="navbar__link sixth">
+                            <a href="temoignages.html"> Témoignages </a>
+                        </li>
+                        <li class="navbar__link seventh no-transi">
+                            <a href="about.html"> A propos </a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+            </div>
+            <div class="containingCP">
+                <div class="inutile, juste pr texte"></div>
+                <!-- <div class="témoignages">
+                    <div class="tem1">
+                        <p class="tem">&laquo; J'ai pris la bonne décision de vous contacter &raquo; </p>
+                        <p class="personne"> Mère de Maëlle </p>
+                    </div>
+                    <div class="tem2">
+                        <p class="tem">&laquo; Les explications sont ultra claires &raquo; </p>
+                        <p class="personne"> Juliane, 1ère </p>
+                    </div>
+                </div> -->
+                <div class="CP">
+                    <h2 class="CP">
+                        Cours Particuliers de Mathématiques
+                    </h2>
+                    <p class="CP">
+                        Remise à niveau par une méthode rapide et efficace
+                    </p>
+                    <div class="boutonsCP">
+                        <nav class="navCP black">
+                            <ul>
+                                <li><a href="privateTuitions.html"><span>Découvrir</span></a></li>
+                            </ul>
+                        </nav>
+                        <!-- <nav class="navCP white">
+                            <ul>
+                                <li><a href="resa.html"><span>Réserver</span></a></li>
+                            </ul>
+                        </nav>  -->
+                        <div class="open-btn">
+                            <button class="open-button white" onclick="openForm()">Réserver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="main-content__landing" role="main">
+        <div class="tem">
+            <div class="temTitre"><p>Ils en parlent le mieux</p></div>
+            <div class="temFactuels">
+                <div class="témoignage">
+                    <p class="temoignage">&laquo; J'ai pris la bonne décision de vous contacter &raquo; </p>
+                    <p class="personne"> Mère de Maëlle </p>
+                </div>
+                <div class="témoignage">
+                    <p class="temoignage">&laquo; Les explications sont ultra claires &raquo; </p>
+                    <p class="personne"> Juliane, 1ère </p>
+                </div>
+                <div class="témoignage tem3">
+                    <p class="temoignage">&laquo; Il m’a donné de bonnes méthodes de travail [...] qui m’ont appris à travailler plus efficacement.
+                        &raquo; </p>
+                    <p class="personne"> Alys, 1ère </p>
+                </div>
+            </div>
+        </div>
+        <div class="OMMem">
+            <div class="OMPage">
+                <div class="containingOM">
+                    <div class="OM">
+                        <div class="OMText">
+                            <h2 class="OM">
+                                Méthodologie
+                            </h2>
+                            <p class="OM">
+                                Les outils nécessaires pour réussir à être efficace en un cours unique de 2h
+                            </p>
+                        </div>
+                        <div class="boutonsOM">
+                            <nav class="OM black">
+                                <ul class="OM">
+                                    <li class="btn"><a href="orga.html"><span>Découvrir</span></a></li>
+                                </ul>
+                            </nav>
+                            <!-- <nav class="OM white">
+                                <ul class="OM">
+                                    <li class="btn"><a href="resa.html"><span>Réserver</span></a></li>
+                                </ul>
+                            </nav> -->
+                            <div class="open-btn">
+                                <button class="open-button white" onclick="openForm()">Réserver</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MemPage">
+                <div class="containingMem">
+                    <div class="Mem">
+                        <div class="MemText">
+                            <h2 class="MemTitle">
+                                Mémorisation
+                            </h2>
+                            <p class="Desc">
+                                1h30 pour apprendre à mémoriser ses cours en s'amusant avec les techniques des champions
+                            </p>
+                        </div>
+                        <div class="boutonsMem">
+                            <nav class="Mem black">
+                                <ul class="MemBtn">
+                                    <li class="btn"><a href="memo.html"><span>Découvrir</span></a></li>
+                                </ul>
+                            </nav>
+                            <!-- <nav class="Mem white">
+                                <ul class="MemBtn">
+                                    <li class="btn"><a href="resa.html"><span>Réserver</span></a></li>
+                                </ul>
+                            </nav> -->
+                            <div class="open-btn">
+                                <button class="open-button white" onclick="openForm()">Réserver</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nombres">
+            <div class="nombresTitre"><p>Quelques chiffres clés</p></div>
+            <div class="nombresFactuels">
+                <div class="nb">
+                    <p class="nombre"><strong>5</strong> 
+                    <p class="keyword">Points</p>
+                    <p class="txtNb">D'augmentation dans leur moyenne en mathématiques.</p>
+                </div>
+                <div class="nb">
+                    <p class="nombre"><strong>100</strong></p>
+                    <p class="keyword">%</p>
+                    <p class="txtNb">De mes élèves ont eu</p>
+                    <p class="txtNb">leur baccalauréat</p>
+                </div>
+                <div class="nb">
+                    <p class="nombre"><strong>1</strong></p>
+                    <p class="keyword">Mois</p>
+                    <p class="txtNb">De coaching en moyenne.</p>
+                    <p class="txtNb">C'est tout.</p>
+                </div>
+            </div>
+        </div>
+        </main>
+        <div class="containingPopup hide"  onclick="closeForm()" id="popupForm">
+            <div class="containingPopup__content" onclick="event.stopPropagation()">
+                <div class="login-popup">
+                    <div class="containingPopup__Coordinates">
+                        <div class="containingPopup__myCoordinates">
+                            <div class="contactezMoi">
+                                <p><strong>Contactez-moi</strong></p>
+                            </div>
+                            <div class="myCoordinates">
+                                <div class="myCoordinatesContainer">
+                                    <div class="myPhone">
+                                        <div class="logo"> 📞 </div>
+                                        <div class="number"><strong><a class="number" href="tel:+33663442357">06 63 44 23 57</a></strong></div>
+                                    </div>
+                                    <div class="myMail">
+                                        <div class="logo"> ✉️ </div>
+                                        <div class="mail"><a href="mailto:dasilvaalois@gmail.com?body=Merci d'indiquer l'âge de la ou des personnes qui souhaitent réserver un cours avec moi, et un petit message décrivant votre besoin! Merci pour votre confiance 😃" class="mail"><span><strong>dasilvaalois@gmail.com</strong><span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pied de page -->
+    <footer>
+        <div><p>
+            Copyright &copy; 2021 Aloha Maths
+        </p></div>
+        <div class="a"><a href="mentionsLegales.html"> Mentions Légales</a></div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
