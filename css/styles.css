@@ -416,7 +416,7 @@ div#Landing div nav ul li{
     width:100%;
     /* height:calc(100vh - var(--height-navbar) - var(--padding-main)); */
     /* background: url("https://zupimages.net/up/21/23/oudz.png") no-repeat; */
-    background: url("../img/ImagePrésentation-min.jpg") no-repeat;
+    background: url("../img/ImagePreesentation-min.jpg") no-repeat;
     background-size: cover;
     /* position: absolute; */
 }
