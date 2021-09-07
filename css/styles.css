@@ -4,7 +4,7 @@
     --font-size:1rem;
     --height-navbar:60px;
     --burger-width:20px;
-    --padding-main:3vw;
+    --padding-main:25px;
     --footer-height:45px;
     --text-normal-color:#444;
     --text-padding-funnel:13vw;
@@ -231,6 +231,14 @@ nav.white ul li a:hover, button.white:hover {
     background-color: var(--navbar-bg-color);
     transition: width .3s ease-out;
 }
+/* .show-nav ul.navbar__links-ul li a:hover {
+    text-decoration: underline;
+    transition: text-decoration 1s ease-out;
+}
+.show-nav ul.navbar__links-ul li a {
+    text-decoration: none;
+    transition: text-decoration 1s ease-out;
+} */
 @media screen and (max-width:700px) {
     .show-nav ul.navbar__links-ul {
         height:100vh;
@@ -286,9 +294,11 @@ nav.white ul li a:hover, button.white:hover {
     padding: 1rem;
     font-size: 1.4rem;
     transition: visibility .5s ease-out 300ms;
+    transition: transform .3s ease-out ;
 }
 .navbar__link > a:hover{
     opacity: 0.75;
+    transform: translateX(5px);
     transition: all .3s ease-in-out;
 }
 /* #Landing .show-nav .navbar__links, #CoursP .show-nav .navbar__links, #mem .show-nav .navbar__links, #orga .show-nav .navbar__links {
@@ -797,6 +807,7 @@ div.OM {
 .boutonsOM {
     z-index:0;
     width:100%;
+    /* padding-bottom:25px; */
     padding-top:20px;
     /* background:black; */
     display:flex;
@@ -854,6 +865,7 @@ div.Mem h2, div.Mem p {
     z-index:0;
     width:100%;
     padding-top:20px;
+    /* padding-bottom:25px; */
     /* background:black; */
     display:flex;
     bottom:0;
