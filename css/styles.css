@@ -52,7 +52,7 @@ html {
 
 
 /* =====================  BASIC STYLE  ==================== */
-#Landing, #CoursP, #resa, #about, #bac, #mem, #orga, #tem, .open-buttonMem, .open-button, .containingPopup__content, #ML, main.about__main-content {
+#Landing, #CoursP, #resa, #about, #bac, #mem, #orga, #tem, .open-buttonMem, .open-button, .containingPopup__content, #ML {
     font-family: Avenir,Helvetica Neue,sans-serif;
     font-size: var(--font-size);
     text-transform: uppercase;
@@ -125,7 +125,7 @@ nav.white ul li a:hover, button.white:hover {
     width:0;
     display:flex;
     padding-left: 10px;
-    font-size: 1.6rem;
+    font-size: 16px;
     cursor:pointer;
     transition: all .3s ease-in-out;
 }
@@ -353,13 +353,13 @@ nav.white ul li a:hover, button.white:hover {
     text-align: center;
     justify-content: center;
     align-items:center;
-    font-size: 2.5rem;
+    font-size: 25px;
 }
 .navbar__logo a.logo p.pi1{
-    font-size: 3.0rem;
+    font-size: 30px;
 }
 .navbar__logo a.logo p.pi2{
-    font-size: 3.0rem;
+    font-size: 30px;
 }
 .navbar__logo a.logo:hover{
     opacity: 0.75;
@@ -491,22 +491,22 @@ div#Landing div nav ul li{
 /* Titre */
 @media(min-width:850px) {
     h2.CP {
-        font-size:3.2rem;
+        font-size:32px;
         color: white;
     }
     p.CP {
-        font-size: 1.7rem;
+        font-size: 17px;
         color: white;
         padding-bottom:10px;
     }
 }
 @media(max-width:850px) {
     h2.CP {
-        font-size:2.5rem;
+        font-size:25px;
         color: white;
     }
     p.CP {
-        font-size: 1.2rem;
+        font-size: 12px;
         color: white;
         padding-bottom:10px;
     }
@@ -584,7 +584,7 @@ div#Landing div.CP nav.white ul li, div#Landing div.CP button.white {
     padding:var(--padding-main);
     text-align:center;
     width:calc(100vw - var(--padding-main) - var(--padding-main));
-    font-size:2.5rem;
+    font-size:25px;
 }
 @media(min-width: 850px) {
     .temFactuels {
@@ -670,7 +670,7 @@ div#Landing div.CP nav.white ul li, div#Landing div.CP button.white {
 }
 .temFactuels .témoignage p.personne {
     /* padding-top:7vh; */
-    font-size:1.5rem;
+    font-size:15px;
     /* padding-left: 10px;
     padding-right:auto; */
     text-align: center;
@@ -852,7 +852,7 @@ div.Mem {
     justify-content: space-between;
 }
 div.OMMem p {
-    font-size:1.5rem;
+    font-size:15px;
 }
 div.Mem h2, div.Mem p {
     color:white;
@@ -932,7 +932,7 @@ div.Mem h2, div.Mem p {
 }
 
 .CoursP__title-first-page p {
-    font-size:4.0rem;
+    font-size:40px;
     color: black;
     text-transform:none;
 }
@@ -990,31 +990,31 @@ main.CoursP__main-content .Text, main.orga__main-content .Text {
 }
 main.CoursP__main-content .Text p.Question, main.orga__main-content .Text p.Question {
     padding-top:10vh;
-    font-size:3.5rem;
+    font-size:35px;
 }
 main.CoursP__main-content .Text p.s-v {
     padding-top:4vh;
-    font-size:2.5rem;
+    font-size:25px;
     color: var(--text-normal-color);
 }
 main.CoursP__main-content .Text ul.s-vliste {
     list-style: inside;
     padding-top:3vh;
-    font-size:2.0rem;
+    font-size:20px;
     color: var(--text-normal-color);
 }
 main.CoursP__main-content .Text ul.s-vliste li{
     padding-top:1vh;
-    font-size:2.0rem;
+    font-size:20px;
 }
 main.CoursP__main-content .Text p.boldImpact{
-    font-size:2.5rem;
+    font-size:25px;
     
     padding-top:4vh;
     line-height: 1.5;
 }
 main.CoursP__main-content .Text .longTexte {
-    font-size:2.0rem;
+    font-size:20px;
     padding-top:2vh;
     color: var(--text-normal-color);
     line-height: 1.8;
@@ -1022,12 +1022,12 @@ main.CoursP__main-content .Text .longTexte {
 main.CoursP__main-content .Text ul.accompagnementListe {
     list-style: inside;
     padding-top:1vh;
-    font-size:2.0rem;
+    font-size:20px;
     color: var(--text-normal-color);
 }
 main.CoursP__main-content .Text ul.accompagnementListe li{
     padding-top:3vh;
-    font-size:2rem;
+    font-size:20px;
     line-height: 1.8;
 }
 /* .CoursP__resa-bot {
@@ -1124,7 +1124,7 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
     background-color: #1b1c1b;
 }
 .orga__title-first-page p {
-    font-size:4.0rem;
+    font-size:40px;
     color:white;
     text-transform:none;
 }
@@ -1178,30 +1178,30 @@ main.orga__main-content .Text, main.orga__main-content .Text {
 }
 main.orga__main-content .Text p.Question, main.orga__main-content .Text p.Question {
     padding-top:10vh;
-    font-size:3.5rem;
+    font-size:35px;
 }
 main.orga__main-content .Text p.s-v {
     padding-top:4vh;
-    font-size:2.5rem;
+    font-size:25px;
     color: var(--text-normal-color);
 }
 main.orga__main-content .Text ul.s-vliste {
     list-style: inside;
     padding-top:3vh;
-    font-size:2.0rem;
+    font-size:20px;
     color: var(--text-normal-color);
 }
 main.orga__main-content .Text ul.s-vliste li{
     padding-top:1vh;
-    font-size:2.0rem;
+    font-size:20px;
 }
 main.orga__main-content .Text p.boldImpact{
-    font-size:2.5rem;
+    font-size:25px;
     padding-top:4vh;
     line-height: 1.5;
 }
 main.orga__main-content .Text .longTexte {
-    font-size:2.0rem;
+    font-size:20px;
     padding-top:2vh;
     color: var(--text-normal-color);
     line-height: 1.8;
@@ -1209,12 +1209,12 @@ main.orga__main-content .Text .longTexte {
 main.orga__main-content .Text ul.accompagnementListe {
     list-style: inside;
     padding-top:1vh;
-    font-size:2.0rem;
+    font-size:20px;
     color: var(--text-normal-color);
 }
 main.orga__main-content .Text ul.accompagnementListe li{
     padding-top:3vh;
-    font-size:2.0rem;
+    font-size:20px;
     line-height: 1.8;
 }
 .orga__resa-bot {
@@ -1237,7 +1237,7 @@ main.orga__main-content .Text ul.accompagnementListe li{
     align-items:center;
 }
 p.LePire {
-    font-size:2.5rem;
+    font-size:25px;
     padding-top:0vh;
     line-height: 1.5;
 }
@@ -1248,7 +1248,7 @@ p.module {
     line-height: 1.5;
     padding-bottom: 10px;
     padding-top:10px;
-    font-size: 2.1rem;
+    font-size: 21px;
 }
 
 
@@ -1293,7 +1293,7 @@ p.module {
     display:flex;
 }
 .mem__title-first-page p {
-    font-size:4rem;
+    font-size:40px;
     color: #000;
     text-transform:none;
 }
@@ -1334,30 +1334,30 @@ main.mem__main-content .Text, main.mem__main-content .Text {
 }
 main.mem__main-content .Text p.Question {
     padding-top:10vh;
-    font-size:3.5rem;
+    font-size:35px;
 }
 main.mem__main-content .Text p.s-v {
     padding-top:4vh;
-    font-size:2.5rem;
+    font-size:25px;
     color: var(--text-normal-color);
 }
 main.mem__main-content .Text ul.s-vliste {
     list-style: inside;
     padding-top:3vh;
-    font-size:2.0rem;
+    font-size:20px;
     color: var(--text-normal-color);
 }
 main.mem__main-content .Text ul.s-vliste li{
     padding-top:1vh;
-    font-size:2rem;
+    font-size:20px;
 }
 main.mem__main-content .Text p.boldImpact{
-    font-size:2.5rem;
+    font-size:25px;
     padding-top:4vh;
     line-height: 1.5;
 }
 main.mem__main-content .Text .longTexte {
-    font-size:2.0rem;
+    font-size:20px;
     padding-top:2vh;
     color: var(--text-normal-color);
     line-height: 1.8;
@@ -1365,12 +1365,12 @@ main.mem__main-content .Text .longTexte {
 main.mem__main-content .Text ul.accompagnementListe {
     list-style: inside;
     padding-top:1vh;
-    font-size:2.0rem;
+    font-size:20px;
     color: var(--text-normal-color);
 }
 main.mem__main-content .Text ul.accompagnementListe li{
     padding-top:3vh;
-    font-size:2rem;
+    font-size:20px;
     line-height: 1.8;
 }
 .mem__resa-bot {
@@ -1393,7 +1393,7 @@ main.mem__main-content .Text ul.accompagnementListe li{
     align-items:center;
 }
 p.LePire {
-    font-size:2.5rem;
+    font-size:25px;
     padding-top:0vh;
     line-height: 1.5;
 }
@@ -1404,7 +1404,7 @@ p.module {
     line-height: 1.5;
     padding-bottom: 10px;
     padding-top:10px;
-    font-size: 2.1rem;
+    font-size: 21px;
 }
 
 
@@ -1450,7 +1450,7 @@ p.module {
 }
 
 .about__title-first-page p {
-    font-size:4.0rem;
+    font-size:40px;
     color: #000;
     text-transform:none;
 }
@@ -1539,7 +1539,7 @@ p.module {
     line-height: 1.5;
     padding-bottom: 10px;
     padding-top:10px;
-    font-size: 2.1rem;
+    font-size: 21px;
 }
 
 
@@ -1636,10 +1636,10 @@ a.mail {
 }
 .contactezMoi {
     text-transform: none;
-    font-size: 2.0rem;
+    font-size: 20px;
 }
 .myCoordinates {
-    font-size: 2.0rem;
+    font-size: 20px;
     display:flex;
     /* background-color:black; */
     /* margin: 1.25rem 0;
@@ -1654,7 +1654,7 @@ a.mail {
     padding-top:2vw;
 }
 .myCoordinatesContainer .logo {
-    font-size: 3rem;
+    font-size: 30px;
     padding-left:3vw;
     padding-right:3vw;
 }
