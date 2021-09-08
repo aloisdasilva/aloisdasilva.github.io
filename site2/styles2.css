@@ -1,0 +1,301 @@
+/* Fonts */
+/* Poppins? */
+
+/* Variables */
+:root {
+    --font-size:1rem;
+    --height-navbar:60px;
+    --burger-width:30px;
+}
+.light-mode {
+    --navbar-color: #222;
+    --navbar-bg-color: #F0F0F0;
+}
+.dark-mode {
+    --navbar-color: #FFF;
+    --navbar-bg-color: #000;
+}
+
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+
+
+/* Basic style */
+body {
+    font-family: Avenir,Helvetica Neue,sans-serif;
+    font-size: var(--font-size);
+}
+.main-content {
+    padding:1rem;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px;
+    height: var(--height-navbar);
+    color: var(--navbar-color);
+    background: var(--navbar-bg-color);
+    padding-left:25px;
+    transition: all .5s ease-in-out;
+}
+    /* Menu Burger */
+.menu-btn {
+    display:block;
+    position:relative;
+    justify-content:left;
+    border: none;
+    width:var(--burger-width);
+    height:var(--burger-width);
+    background:transparent;
+    cursor:pointer;
+    transition: all .5s ease-in-out;
+}
+.menu-btn__burger,
+.menu-btn__burger::before, 
+.menu-btn__burger::after {
+    display:block;
+    width:var(--burger-width);
+    height:4px;
+    background:var(--navbar-color);
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+    margin-left: 0px;
+}
+.menu-btn__burger::before, 
+.menu-btn__burger::after {
+    content: '';
+    position: absolute;
+}
+.menu-btn:hover {
+    opacity: 0.8;/*rgba(0, 0, 0, 0.7); */
+    transition: opacity .3s ease-in;
+} 
+.menu-btn__burger::before {
+    transform: translateY(-10px);
+}
+.menu-btn__burger::after {
+    transform: translateY(10px);
+}
+.menu-btn.open .menu-btn__burger {
+    transform: translateX(-25px);
+    transform: rotate(-270deg);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(-45deg);
+    /* translate(17.5px, -17.5px) */
+}
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(45deg);
+     /* translate(17.5px, 17.5px); */
+}
+    /* Menu tout court */
+.navbar__link {
+    visibility: hidden;
+    transform:translateX(200px);
+}
+.show-nav .navbar__link {
+    transform: translateX(0); 
+    visibility:visible;
+} 
+.navbar__links {
+    display:flex;
+    width: 0;
+    flex-direction: column;
+    height:calc(100vh - var(--height-navbar));
+    position: absolute;
+    top:var(--height-navbar);
+    left:0;
+    background: var(--navbar-bg-color);
+    transition: width .3s ease-in-out;
+}
+.show-nav .navbar__links {
+    width:35%;
+    transition: width .3s ease-in-out;
+}
+.show-nav .first{
+    transition: all 1s ease-out;
+}
+.show-nav .second{
+    transition: all 1.1s ease-out;
+}
+.show-nav .third{
+    transition: all 1.2s ease-out;
+}
+.show-nav .fourth{
+    transition: all 1.3s ease-out;
+}
+.show-nav .fifth{
+    transition: all 1.4s ease-out;
+}
+.navbar__link {
+    padding: 0 10px;
+}
+.show-nav ~ body {
+
+}
+.navbar__link > a{
+    color: var(--navbar-color);
+    text-decoration:none;
+    display: block;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.navbar__link > a:hover{
+    opacity: 0.8;
+    transition: all .3s ease-in-out;
+}
+.navbar__logo {
+    font-family: Moderne ,serif;
+}
+@media screen and (min-width: 64rem) {
+    .navbar__logo {
+    position: relative; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-right: 5%;
+    }
+}
+@media screen and (max-width: 64rem) {
+    .navbar__logo {
+    position: relative; 
+    text-align: left;
+    margin-right: auto; 
+    padding-right: 5%;
+    padding-left: 2%;
+    }
+}
+.navbar__logo a.logo {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--navbar-color);
+    background-color: transparent;
+}
+.navbar__logo a.logo p{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    font-size: 25px;
+}
+.navbar__logo a.logo p.pi1{
+    font-size: 30px;
+}
+.navbar__logo a.logo p.pi2{
+    font-size: 30px;
+}
+.navbar__logo a.logo:hover{
+    opacity: 0.8;
+    transition: opacity .3s ease-in;
+}
+
+/* Contenu du site */
+
+/* Background image: cours particuliers */
+
+div#Landing div nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}
+   /* CP */
+div#Landing div.CP nav.left ul li a{
+    color: #baeeef;
+    background-color:black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+div#Landing div.CP nav.left ul li a:hover{
+    color: black;
+    background-color: #baeeef;
+    transition: 0.5s;
+}
+
+    /* OM MEM */
+div#Landing div.OMMem div {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+        /* OM */
+div#Landing div.OMMem div nav.OM ul li a{
+    color: white;
+    background-color:black;
+    text-decoration: none;
+    padding: 10px;
+    vertical-align: bottom;
+}
+
+div#Landing div.OMMem div.OM nav.OM ul li a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+        /* Mem */
+div#Landing div.OMMem div.Mem nav.Mem ul li a{
+    color: white;
+    background-color:black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+div#Landing div.OMMem div.Mem nav.Mem ul li a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+/* div#Landing div.OMMem div nav.right ul li a{
+    color: black;
+    background-color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+div#Landing div.OMMem div nav.right ul li:hover a{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}*/
+
+/* Pied de page */
+
+footer {
+    display:flex;
+    background-color: black;
+    color: #baeeef;
+}
+
+footer p {
+    padding: 10px;
+}
+/* Small devices */
+
+    /* Toggle menu */
+
+    /* Bonus-animations */
+
+    
+/* Medium devices */
+
