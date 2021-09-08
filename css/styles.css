@@ -414,12 +414,8 @@ div#Landing div nav ul li{
     height: 100vh;
     overflow: hidden;
     width:100%;
-    /* height:calc(100vh - var(--height-navbar) - var(--padding-main)); */
-    /* background: url("https://zupimages.net/up/21/23/oudz.png") no-repeat; */
     background: url("../img/ImagePresentation-min.jpg") no-repeat;
-    /*e*/
     background-size: cover;
-    /* position: absolute; */
 }
 /* .Landing__first-page .light-mode { 
     opacity: .6;
@@ -427,7 +423,6 @@ div#Landing div nav ul li{
     text-shadow:.5px .5px 1px #ddd d;
 } */
 .Landing__first-page .dark-mode {
-    /* opacity: .6; */
     --navbar-color: black;
     background-color: rgba(255,255,255,0.5); 
     text-shadow: .5px .5px 20px #fff;
