@@ -416,14 +416,15 @@ div#Landing div nav ul li{
     width:100%;
     /* height:calc(100vh - var(--height-navbar) - var(--padding-main)); */
     /* background: url("https://zupimages.net/up/21/23/oudz.png") no-repeat; */
-    background: url("../img/ImagePreesentation-min.jpg") no-repeat;
+    background: url("../img/ImagePresentation-min.jpg") no-repeat;
+    /*e*/
     background-size: cover;
     /* position: absolute; */
 }
 /* .Landing__first-page .light-mode { 
     opacity: .6;
     background-color: rgba(0,0,0,0); 
-    text-shadow:.5px .5px 1px #ddd;
+    text-shadow:.5px .5px 1px #ddd d;
 } */
 .Landing__first-page .dark-mode {
     /* opacity: .6; */
