@@ -125,7 +125,7 @@ nav.white ul li a:hover, button.white:hover {
     width:0;
     display:flex;
     padding-left: 10px;
-    font-size: 16px;
+    font-size: 1.6rem;
     cursor:pointer;
     transition: all .3s ease-in-out;
 }
@@ -353,13 +353,13 @@ nav.white ul li a:hover, button.white:hover {
     text-align: center;
     justify-content: center;
     align-items:center;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 .navbar__logo a.logo p.pi1{
-    font-size: 30px;
+    font-size: 3.0rem;
 }
 .navbar__logo a.logo p.pi2{
-    font-size: 30px;
+    font-size: 3.0rem;
 }
 .navbar__logo a.logo:hover{
     opacity: 0.75;
@@ -491,22 +491,22 @@ div#Landing div nav ul li{
 /* Titre */
 @media(min-width:850px) {
     h2.CP {
-        font-size:32px;
+        font-size:3.2rem;
         color: white;
     }
     p.CP {
-        font-size: 17px;
+        font-size: 1.7rem;
         color: white;
         padding-bottom:10px;
     }
 }
 @media(max-width:850px) {
     h2.CP {
-        font-size:25px;
+        font-size:2.5rem;
         color: white;
     }
     p.CP {
-        font-size: 12px;
+        font-size: 1.2rem;
         color: white;
         padding-bottom:10px;
     }
@@ -584,7 +584,7 @@ div#Landing div.CP nav.white ul li, div#Landing div.CP button.white {
     padding:var(--padding-main);
     text-align:center;
     width:calc(100vw - var(--padding-main) - var(--padding-main));
-    font-size:25px;
+    font-size:2.5rem;
 }
 @media(min-width: 850px) {
     .temFactuels {
@@ -670,7 +670,7 @@ div#Landing div.CP nav.white ul li, div#Landing div.CP button.white {
 }
 .temFactuels .témoignage p.personne {
     /* padding-top:7vh; */
-    font-size:15px;
+    font-size:1.5rem;
     /* padding-left: 10px;
     padding-right:auto; */
     text-align: center;
@@ -852,7 +852,7 @@ div.Mem {
     justify-content: space-between;
 }
 div.OMMem p {
-    font-size:15px;
+    font-size:1.5rem;
 }
 div.Mem h2, div.Mem p {
     color:white;
@@ -932,7 +932,7 @@ div.Mem h2, div.Mem p {
 }
 
 .CoursP__title-first-page p {
-    font-size:40px;
+    font-size:4.0rem;
     color: black;
     text-transform:none;
 }
@@ -990,31 +990,31 @@ main.CoursP__main-content .Text, main.orga__main-content .Text {
 }
 main.CoursP__main-content .Text p.Question, main.orga__main-content .Text p.Question {
     padding-top:10vh;
-    font-size:35px;
+    font-size:3.5rem;
 }
 main.CoursP__main-content .Text p.s-v {
     padding-top:4vh;
-    font-size:25px;
+    font-size:2.5rem;
     color: var(--text-normal-color);
 }
 main.CoursP__main-content .Text ul.s-vliste {
     list-style: inside;
     padding-top:3vh;
-    font-size:20px;
+    font-size:2.0rem;
     color: var(--text-normal-color);
 }
 main.CoursP__main-content .Text ul.s-vliste li{
     padding-top:1vh;
-    font-size:20px;
+    font-size:2.0rem;
 }
 main.CoursP__main-content .Text p.boldImpact{
-    font-size:25px;
+    font-size:2.5rem;
     
     padding-top:4vh;
     line-height: 1.5;
 }
 main.CoursP__main-content .Text .longTexte {
-    font-size:20px;
+    font-size:2.0rem;
     padding-top:2vh;
     color: var(--text-normal-color);
     line-height: 1.8;
@@ -1022,12 +1022,12 @@ main.CoursP__main-content .Text .longTexte {
 main.CoursP__main-content .Text ul.accompagnementListe {
     list-style: inside;
     padding-top:1vh;
-    font-size:20px;
+    font-size:2.0rem;
     color: var(--text-normal-color);
 }
 main.CoursP__main-content .Text ul.accompagnementListe li{
     padding-top:3vh;
-    font-size:20px;
+    font-size:2rem;
     line-height: 1.8;
 }
 /* .CoursP__resa-bot {
@@ -1124,7 +1124,7 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
     background-color: #1b1c1b;
 }
 .orga__title-first-page p {
-    font-size:40px;
+    font-size:4.0rem;
     color:white;
     text-transform:none;
 }
@@ -1178,7 +1178,7 @@ main.orga__main-content .Text, main.orga__main-content .Text {
 }
 main.orga__main-content .Text p.Question, main.orga__main-content .Text p.Question {
     padding-top:10vh;
-    font-size:35px;
+    font-size:3.5rem;
 }
 main.orga__main-content .Text p.s-v {
     padding-top:4vh;
