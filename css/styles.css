@@ -1497,38 +1497,31 @@ p.module {
 
 /* ============================Text here=====================================*/
 
-main.about__main-content .Text, main.about__main-content .Text {
-    margin-left:var(--text-padding-funnel);
-    margin-right:var(--text-padding-funnel);
-    font-family: Avenir,sans-serif;
-}
-
 .CV {
-    height:100vh;
+    height:170vh;
 }
 .CV_pdf {
     size:cover;
     height:100vh;
 }
-.about__resa-bot {
-    padding-top:4vh;
-    padding-bottom: 15vh;
-    font-family: Avenir,Helvetica Neue,sans-serif;
-    padding-left:var(--text-padding-funnel);
-    z-index:0;
-    width:100%;
-    /* background:black; */
-    display:flex;
-    bottom:0;
-    text-transform: uppercase;
-}
 
-.about__resa-bot nav ul li {
+main.about__main-content .acknowledgements {
+    margin-left:var(--text-padding-funnel);
+    margin-right:var(--text-padding-funnel);
+    font-family: Avenir,sans-serif;
     display:flex;
-    margin-right:auto;
-    width:30%;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
+}
+main.about__main-content .acknowledgements .title {
+    margin: calc(2 * var(--padding-main));
+}
+main.about__main-content .acknowledgements .text {
+    margin-bottom:calc(var(--padding-main) + var(--padding-main));
+}
+main.about__main-content .acknowledgements .text p{
+    margin-bottom:10px;
 }
 
 a.link {
@@ -1572,7 +1565,6 @@ p.module {
     }
 }
 .containingPopup__content {
-    /* z-index:999; */
     position: relative;
     overflow: auto;
     outline: none;
