@@ -101,7 +101,7 @@ nav.white ul li a:hover, button.white:hover {
 /* =====================  NAVBAR  ==================== */
 .navbar {
     /* position:fixed; */
-    width:100vw;
+    width:100%;
     display: flex;
     align-items:center;
     justify-content:space-between;
@@ -425,7 +425,7 @@ div#Landing div nav ul li{
 .Landing__first-page .dark-mode {
     --navbar-color: black;
     /* background-color: rgba(255,255,255,0.5);  */
-    background-color: #eee;
+    background-color: #fff;
     text-shadow: .5px .5px 20px #fff;
     --navbar-bg-color: #fff;
     --border-color: 1px solid white; 
