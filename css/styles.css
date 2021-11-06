@@ -890,9 +890,6 @@ div.Mem h2, div.Mem p {
     width:calc(50vw - var(--padding-main) - var(--padding-main) - var(--padding-main) / 4);
     }
 }
-@media(max-width: 400px) {
-
-}
 
 
 
