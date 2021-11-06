@@ -730,7 +730,7 @@ div#Landing div.CP nav.white ul li, div#Landing div.CP button.white {
 }
 .nombresFactuels .nb p.keyword, .nombresFactuels .nb3 p.keyword {
     margin-top:35px;
-    padding-right:25px;
+    /* padding-right:25px; */
     font-size:30px;
     text-align:center;
     vertical-align:middle;
