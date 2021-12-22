@@ -890,12 +890,6 @@ div.OMMem p {
 div.Mem h2, div.Mem p {
     color:white;
 }
-/* .boutonsMem .open-button {
-    padding-right: var(--padding-main);
-} */
-/* .boutonsMem nav ul li {
-    margin-right:var(--padding-main);
-} */
 @media(min-width: 850px) {
     .boutonsMem nav ul li, .boutonsMem button{
     width:calc(25vw - var(--padding-main) - var(--padding-main));
@@ -1117,12 +1111,7 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
     align-items:center;
     box-shadow: 2px 2px 5px black;
 } */
-/* .open-btn {
 
-}
-.open-button {
-
-} */
 .open-btnMem {
     padding-top:7vh;
     padding-bottom: 15vh;
@@ -1189,9 +1178,8 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
     display:flex;
     flex-direction: column;
     align-items: flex-end;
-    width:calc(100vw - 80px);
+    width:100vw;
     justify-content: flex-end;
-    margin-left: 40px;
 }
 .orga__title-first-page {
     width: 100vw;
@@ -1204,12 +1192,15 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
 @media(min-width: 500px) {
     .orga__title-first-page {
         align-items: flex-end;
+        margin-right: var(--padding-main);
     }
 }
 @media(max-width: 500px) {
     .orga__title-first-page {
         align-items: flex-start;
         padding-left:80px;
+        margin-right: 0;
+        visibility: hidden;
     }
 }
 .orga__resa nav.white a:hover {
@@ -1220,40 +1211,46 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
     text-transform:none;
     text-shadow:0px 0px 10px #ddd;
 }
-@media(max-width:600px) {
+@media(max-width:500px) {
     .orga__title-first-page p {
         font-size:25px;
     }
 }
-@media(min-width:600px) {
+@media(min-width:500px) {
     .orga__title-first-page p {
         font-size:30px;
     }
 }
-.orga__first-page-all .open-btn {
-    margin-top:0;
-    padding-top:0;
+.orga__title-first-page p.methodologieTitre {
+    margin-top:20px;
+}
+@media(min-width: 500px) {
+    .orga__first-page-all .open-btn {
+        width: 100vw;
+        display:flex;
+        justify-content: flex-end;
+    }
+}
+@media(max-width: 500px) {
+    .orga__first-page-all .open-btn {
+        width: 100vw;
+        display:flex;
+        justify-content: center;
+    }
 }
 @media(min-width: 500px) {
     .orga__first-page-all .open-button {
-        width:20vw;
+        width:30vw;
         /* position:absolute; */
-        right:40px;
-        bottom:0;
+        /* right:40px; */
         bottom: var(--padding-main);
-        margin-top:0;
-        /* margin-top:10px; */
     }
 }
 @media(max-width: 500px) {
     .orga__first-page-all .open-button {
-        width:80vw;
+        width:100vw;
         /* position:absolute; */
-        right:40px;
-        bottom:0;
-        bottom: var(--padding-main);
         margin-top:0;
-        /* margin-top:10px; */
     }
 }
 .orga__img-first-page {
@@ -1487,8 +1484,8 @@ p.module {
         max-height:50vh;
     }
 }
-.mem__first-page-all .open-btn, .orga__first-page-all .open-btn, .CoursP__first-page-all .open-btn {
-    padding-top:4vh;
+.mem__first-page-all .open-btn, .CoursP__first-page-all .open-btn {
+    padding-top:3vh;
     width:80%;
 }
 
