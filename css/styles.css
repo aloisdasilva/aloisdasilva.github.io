@@ -1246,7 +1246,7 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
         position:absolute;
         right:40px;
         bottom:0;
-        margin-bottom: var(--padding-main);
+        bottom: var(--padding-main);
         margin-top:10px;
     }
 }
