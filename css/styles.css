@@ -1198,7 +1198,8 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-bottom: calc(var(--height-navbar) + 2 * var(--padding-main));
+    padding-bottom: calc(var(--height-navbar) + 2 * var(--padding-main));
+    font-family: Avenir,sans-serif;
 }
 @media(min-width: 500px) {
     .orga__title-first-page {
@@ -1208,11 +1209,8 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
 @media(max-width: 500px) {
     .orga__title-first-page {
         align-items: flex-start;
-        padding-left:100px;
+        padding-left:80px;
     }
-}
-.orga__title-first-page {
-    font-family: Avenir,sans-serif;
 }
 .orga__resa nav.white a:hover {
     background-color: #1b1c1b;
