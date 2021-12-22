@@ -1199,7 +1199,6 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
     flex-direction: column;
     justify-content: flex-end;
     margin-bottom: calc(var(--height-navbar) + 2 * var(--padding-main));
-
 }
 @media(min-width: 500px) {
     .orga__title-first-page {
@@ -1209,7 +1208,7 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
 @media(max-width: 500px) {
     .orga__title-first-page {
         align-items: flex-start;
-        padding-left:80px;
+        padding-left:100px;
     }
 }
 .orga__title-first-page {
@@ -1219,10 +1218,19 @@ main.CoursP__main-content .Text ul.accompagnementListe li{
     background-color: #1b1c1b;
 }
 .orga__title-first-page p {
-    font-size:35px;
     color:black;
     text-transform:none;
     text-shadow:0px 0px 10px #ddd;
+}
+@media(max-width:600px) {
+    .orga__title-first-page p {
+        font-size:25px;
+    }
+}
+@media(min-width:600px) {
+    .orga__title-first-page p {
+        font-size:30px;
+    }
 }
 @media(min-width: 500px) {
     .orga__first-page-all .open-button {
