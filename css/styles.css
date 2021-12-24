@@ -241,6 +241,7 @@ nav.white ul li a:hover, button.white:hover {
     width:35%;
     background-color: var(--navbar-bg-color);
     transition: width .3s ease-out;
+    padding-top:15px;
 }
 /* .show-nav ul.navbar__links-ul li a:hover {
     text-decoration: underline;
